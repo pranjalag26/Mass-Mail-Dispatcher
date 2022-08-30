@@ -1,0 +1,3 @@
+Hey ${EMAIL},
+
+This is a test mail.

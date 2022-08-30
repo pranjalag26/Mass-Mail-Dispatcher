@@ -1,1 +1,1 @@
-# Mass-Mail-Dispatcher
+# send_maill

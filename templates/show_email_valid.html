@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    .buttons
+    {
+      text-align: center;
+      margin: auto;
+    }
+    </style>
+  <title>Emails</title>
+</head>
+<body>
+  <p style="text-align: center;">
+    <b> Total number of emails : {{leng}}</b>
+  </p>
+{% for your_list_element in your_list %}
+<p style="text-align: center;">{{ your_list_element }} </p>
+{% endfor %}
+<div class = buttons>
+  <a href="http://127.0.0.1:5000/send">
+  <input type="button" value="Send Mail" style='margin-right:26px'/>
+  </a>
+  </div>
+</body>
+</html>
